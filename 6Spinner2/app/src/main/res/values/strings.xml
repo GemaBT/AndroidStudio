@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="selecciona_opcion">Selecciona una opción</string>
+    <string-array name="spinner_items">
+        <item>Selecciona una opción</item>
+        <item>Opción 1</item>
+        <item>Opción 2</item>
+        <item>Opción 3</item>
+        <!-- Agrega más elementos según sea necesario -->
+    </string-array>
+</resources>

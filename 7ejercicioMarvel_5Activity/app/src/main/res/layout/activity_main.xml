@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/mi_toolbar"
+        android:id="@+id/idToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:id="@+id/idLinea_0"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/black"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp"
+        app:layout_constraintTop_toBottomOf="@id/idToolBar"/>
+
+    <!--En el código anterior, he agregado restricciones a la vista idToolBar para que esté alineada
+    en la parte superior del diseño (app:layout_constraintTop_toTopOf="parent")
+    Luego, he agregado restricciones a la vista idLinea_0 para que esté justamente debajo de la barra de herramientas
+    (app:layout_constraintTop_toBottomOf="@id/idToolBar")-->
+
+    <View
+        android:id="@+id/idLinea_1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#C72A2A"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp"
+        app:layout_constraintTop_toBottomOf="@id/idLinea_0"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="85dp"
+        app:layout_constraintTop_toBottomOf="@id/idLinea_1"
+        android:id="@+id/idLinea_L">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:enabled="true"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="describir"
+            android:text="Siguiente"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Basesdedatos</string>
+    <string name="textView"> </string>
+    <string name="textView2"> </string>
+    <string name="textView3"> </string>
+    <string name="boton">Registar</string>
+    <string name="boton2">Consultar</string>
+    <string name="boton3">Mostrar todo</string>
+    <string name="boton4">Borrar Base Datos</string>
+    <string name="boton5">Limpiar Campos</string>
+    <string name="textView4"> </string>
+
+
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WebView</string>
+    <string name="label">URL:  </string>
+    <string name="textB"></string>
+    <string name="button1">BUSCAR</string>
+    <string name="webV"></string>
+    <string name="button2">VOLVER A PÁG DE BÚSQUEDA</string>
+    <string name="text1">DIRRECCIONES FAVORITAS\n</string>
+    <string name="text2">https://aulavirtual33.educa.madrid.org/ies.sanjuandelacruz.pozuelodealarcon/</string>
+    <string name="text3">https://github.com/GemaBT</string>
+    <string name="text4">https://google.com</string>
+    <string name="salto">\n\n</string>
+</resources>
