@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="TextView1">Contacto</string>
+    <string name="TextView2">Direccion</string>
+    <string name="button1">GUARDAR</string>
+    <string name="button2">BUSCAR</string>
+    <string name="button3">LIMPIAR</string>
+    <string name="datosArchivo">datos.json</string>
+</resources>
